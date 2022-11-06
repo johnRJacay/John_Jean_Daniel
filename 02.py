@@ -1,0 +1,7 @@
+tots=float(input("INGRESE TOTAL DE SEGUNDOS :"))
+hor=round(tots /3600)
+min=round((tots - (hor *3600))/60)
+seg=round(tots - ((hor *3600)+(min *60)))
+print("HORAS : ",hor)
+print("MINUTOS :",min)
+print("SEGUNDOS :",seg)
